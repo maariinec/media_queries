@@ -1,0 +1,64 @@
+.red{
+	background-color: red;
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.blue{
+	background-color: blue;
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+p{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h2{
+	font-size: 0%;
+}
+
+@media screen and (max-width: 500px){
+	h1{
+		display: none;
+	}
+
+	.blue{
+		display: block;
+		width: 200px;
+		height: 500px;
+		background-color: green;
+	}
+
+	p{
+  	font-family: fantasy;
+	}
+
+}
+
+@media (max-height: 400px){
+
+	h2{
+	font-size: 1em;
+	}
+
+	.red{
+		background-color: red;
+		width: 50%;
+		height: 100px;
+		display: block;
+	}
+	.blue{
+		margin-top: 4%;
+		width: 50%;
+		height: 100px;
+		display: block;
+	}
+	p{
+		display: none;
+	}
+
+}
